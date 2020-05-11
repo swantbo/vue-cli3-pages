@@ -1,15 +1,18 @@
 import Vue from 'vue'
-import Vuex from 'vuex'
+import Router from 'vue-router'
+//主页
+const HelloWorld = () => import('@/components/HelloWorld')
+Vue.use(Router)
 
-Vue.use(Vuex)
-
-export default new Vuex.Store({
-  state: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
-  modules: {
-  }
+const router = new Router({
+    routes: [
+      {
+        path: '/',
+        name: 'HelloWorld', //测试首页
+        component: HelloWorld,
+    },
+    ]
 })
+
+
+export default router

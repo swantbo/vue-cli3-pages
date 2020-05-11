@@ -1,6 +1,6 @@
 <template>
   <div id="index">
-    <router-link></router-link>
+    <router-view></router-view>
       <div>
         <a href="test.html">跳转新的页面</a>
       </div>
