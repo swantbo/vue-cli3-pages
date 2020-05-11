@@ -1,12 +1,12 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+  <div id="test">
+    <router-link></router-link>
+    <div>
+        <a href="index.html">跳转新的页面</a>
+      </div>
   </div>
 </template>
+
 
 <style>
 #app {
